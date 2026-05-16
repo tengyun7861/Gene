@@ -1,0 +1,13 @@
+# DNA序列比对工具依赖包
+
+# 核心依赖
+torch>=2.0.0
+numpy>=1.24.0
+
+# GUI依赖
+PyQt5>=5.15.0
+
+# 注意：
+# 1. 如果需要GPU加速，请安装CUDA版本的PyTorch
+# 2. 安装命令：pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# 3. 如果没有GPU，PyTorch会自动使用CPU版本
